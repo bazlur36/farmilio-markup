@@ -2,8 +2,30 @@
 // They will automatically be included in application.css.scss.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+/*corporate colors*/
+
+$gray:        #B4B4B4;
+$light_brown: #806856;
+$dark_brown:  #493926;
+$red:         #D34044;
+$green:       #5CB461;
+$site_font:   'Helvetica Neue', 'Arial', 'sans-serif';
+$site_text_color:#000;
+$ash:         #EEEEEE;
+$dark_ash:    #B4B4B4;
+$field_border_width: 5px;
+body {
+  font: $site_font;
+  color: $site_text_color;
+
+}
+
+input[type="text"]{
+  background: $ash;
+  border: $field_border_width solid $dark_ash;
+}
 
 h1 {
-	color:#F00
+	color:$gray
 }
 
