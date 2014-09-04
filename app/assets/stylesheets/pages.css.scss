@@ -29,3 +29,90 @@ h1 {
 	color:$gray
 }
 
+.navbar-header .logo {
+  float: left;
+}
+
+
+.navbar .navbar-header button {
+  margin-left: 5px;
+}
+
+.forced-horizontal {
+  .nav > li {
+    float: left;
+    display: none;
+  }
+  float: right;
+
+  .nav > li.de {
+    display: inline-block;
+  }
+
+
+
+  .nav > li.de img {
+    width: 40px;
+    height: auto;
+  }
+
+  .nav > li.de > a {
+    padding-top: 5px
+  }
+
+}
+
+
+@media (max-width: 480px ) and (min-width: 321px) {
+
+}
+
+@media (max-width: 320px) and (min-width: 241px) {
+
+}
+
+@media (max-width: 480px) {
+
+}
+
+@media (min-width: 481px) {
+  .forced-horizontal .nav > li.login {
+    display: inline-block;
+  }
+}
+
+@media (min-width: 600px) {
+  .forced-horizontal .nav > li.position {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 320px) {
+  .navbar-header .logo img {
+    width: 100%;
+    height: auto;
+  }
+  .navbar-header .logo {
+    width: 40px;
+  }
+
+  .forced-horizontal .nav > li.de img {
+    width: 25px;
+    height: auto;
+  }
+
+  .navbar-brand {
+    font-size: 12px;
+    padding: 15px 0px 0px 5px;
+  }
+}
+
+@media (max-width: 240px) {
+  .forced-horizontal {
+    width: 40px;
+  }
+
+
+}
+
+
