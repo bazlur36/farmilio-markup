@@ -79,50 +79,29 @@ h1 {
   .forced-horizontal .nav > li.login {
     display: inline-block;
   }
-  .navbar-collapse.collapse li.login {
-    display: none;
-  }
-
 }
 
-@media (min-width: 600px) {
+@media (min-width: 601px) {
   .forced-horizontal .nav > li.position {
     display: inline-block;
   }
-
-  .navbar-collapse.collapse li.position {
-    display: none;
-  }
 }
 
-@media (min-width: 660px) {
+@media (min-width: 661px) {
   .forced-horizontal .nav > li.share {
     display: inline-block;
   }
-
-  .navbar-collapse.collapse li.share {
-    display: none;
-  }
-
 }
 
-@media (min-width: 768px) {
-  .forced-horizontal .nav > li.contact {
-    display: inline-block;
-  }
-
+@media (min-width: 769px) {
   .forced-horizontal .nav > li.contact {
     display: inline-block;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .forced-horizontal .nav > li.help {
     display: inline-block;
-  }
-
-  .collapse.navbar-collapse ul {
-    display: none;
   }
 }
 
