@@ -156,7 +156,9 @@ a:hover, a:focus {
 
 .vertical-ad {
   text-align: right;
-
+  img {
+    max-width: 150px;
+  }
 }
 
 .help .dropdown-menu {
