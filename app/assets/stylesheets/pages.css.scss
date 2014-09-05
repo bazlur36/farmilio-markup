@@ -92,7 +92,7 @@ h1 {
 
 .forced-horizontal {
   .nav > li {
-    float: left;
+    float: right;
     display: none;
   }
 
@@ -100,6 +100,7 @@ h1 {
 
   .nav > li.de {
     display: inline-block;
+    float: left;
   }
 
   .nav > li.de img {
