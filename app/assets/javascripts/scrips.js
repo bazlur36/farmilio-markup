@@ -5,7 +5,7 @@
 $window = $( window ).width();
 
 
-$( document ).ready(function() {
+$( window ).resize(function() {
     if($window > 480) {
         $('.navbar-collapse.collapse li.login').css('display','none');
     }
@@ -18,5 +18,6 @@ $( document ).ready(function() {
     if($window > 768) {
         $('.navbar-collapse.collapse li.contact').css('display','none');
         $('.navbar-collapse.collapse li.help').css('display','none');
+        $('.navbar-collapse.collapse').css('display','none')
     }
 });
