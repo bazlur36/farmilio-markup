@@ -13,4 +13,7 @@ class PagesController < ApplicationController
 
   def header_footer
   end
+
+  def start
+  end
 end

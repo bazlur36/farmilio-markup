@@ -18,6 +18,6 @@ $( window ).resize(function() {
     if($window > 768) {
         $('.navbar-collapse.collapse li.contact').css('display','none');
         $('.navbar-collapse.collapse li.help').css('display','none');
-        $('.navbar-collapse.collapse').css('display','none')
+
     }
 });

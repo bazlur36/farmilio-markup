@@ -55,8 +55,8 @@ h1 {
 
 .main-content,
 .cjs {
-  margin: 0.5%;
-  width: 99%;
+  /*margin: 0.75%;
+  width: 98.5%;*/
 }
 
 .footer {
@@ -75,6 +75,26 @@ h1 {
 
 .main-content .message {
   text-align: center;
+  color: $green;
+}
+
+.offer .thumb img {
+  width: 100%;
+  height: auto;
+}
+
+.offer .thumb,
+.offer .icons {
+  width: 100%;
+}
+
+.offer .icons img {
+  width: 30%;
+  margin-right: 6%;
+}
+
+.offer .icons img:last-child {
+  margin-right: 0;
 }
 
 .navbar-header {
@@ -136,9 +156,7 @@ a:hover, a:focus {
 
 .vertical-ad {
   text-align: right;
-  img {
-    margin-right: 15px;
-  }
+
 }
 
 .help .dropdown-menu {
@@ -183,6 +201,13 @@ a.btn-primary {
 
 }
 
+
+@media (max-width: 1024px) and (min-width: 769px) {
+  .header-banner {
+    width: 768px;
+  }
+}
+
 @media (max-width: 480px) {
 
 }
@@ -191,6 +216,15 @@ a.btn-primary {
   .forced-horizontal .nav > li.login {
     display: inline-block;
   }
+}
+
+@media (min-width: 1150px) {
+  .main-content,
+  .cjs {
+    /*margin: 0.75%;
+    width: 98%;*/
+  }
+
 }
 
 @media (min-width: 601px) {
@@ -218,6 +252,10 @@ a.btn-primary {
 
   .forced-horizontal .nav > li.de > a {
     padding-top: 15px
+  }
+
+  .navbar-collapse.collapse ul {
+    display: none;
   }
 }
 
