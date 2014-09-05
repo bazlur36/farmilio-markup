@@ -14,6 +14,9 @@ $site_text_color:#000;
 $ash:         #EEEEEE;
 $dark_ash:    #B4B4B4;
 $field_border_width: 5px;
+
+@import "mixins";
+
 body {
   font: $site_font;
   color: $site_text_color;
@@ -57,9 +60,13 @@ h1 {
 }
 
 .footer {
-  background: $light_brown;
+  background: #B4B4B4;
   float: left;
   width: 100%;
+}
+
+.footer ul li {
+  list-style: none;
 }
 
 .copyrights {
@@ -112,6 +119,33 @@ h1 {
 
 .page-links > div {
   margin-bottom:10px
+}
+
+a {
+  color: $light_brown;
+}
+
+a:hover, a:focus {
+  color: $red
+}
+
+.footer ul {
+  padding-left: 10px;
+}
+
+a.btn-primary:hover, a.btn-primary:focus, a.btn-primary:active, a.btn-primary.active, .open > a.dropdown-toggle.btn-primary {
+  background-color: $red;
+  border-color: $red;
+  color: #FFFFFF;
+}
+
+a.btn-primary {
+  background: $light_brown;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  @include border-radius(5px);
+  border-color: $light_brown;
 }
 
 
