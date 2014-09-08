@@ -6,13 +6,13 @@ $window = $( window ).width();
 
 
 $( window ).resize(function() {
-    if($window > 480) {
+    if($window > 479) {
         $('.navbar-collapse.collapse li.login').css('display','none');
     }
-    if($window > 600) {
+    if($window > 599) {
         $('.navbar-collapse.collapse li.position').css('display','none');
     }
-    if($window > 660) {
+    if($window > 559) {
         $('.navbar-collapse.collapse li.share').css('display','none');
     }
     if($window > 768) {

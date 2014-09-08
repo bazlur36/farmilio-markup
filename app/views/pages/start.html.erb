@@ -1,62 +1,22 @@
 <div class="container">
-  <div class="header-banner">
-    <%= image_tag "banner_images/banner-gt-1150.png" %>
-  </div>
-  <nav class="navbar navbar-default" role="navigation">
-    <div class="container-fluid">
-      <!-- Brand and toggle get grouped for better mobile display -->
+<div class="header-banner">
+  <%= image_tag "banner_images/banner-gt-1150.png" %>
+</div>
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
 
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <div class="forced-horizontal">
-          <ul class="nav navbar-nav">
-            <li class="de"><a href="#"><%= image_tag "DE.png" %></a></li>
-            <li class="login"><a href="#">Login</a></li>
-            <li class="position"><a href="#">Position</a></li>
-            <li class="share"><a href="#">Share</a></li>
-            <li class="contact"><a href="#">Contact</a></li>
-            <li class="help dropdown">
-              <a data-toggle="dropdown" class="dropdown-toggle" href="#">Help <span class="caret"></span></a>
-              <ul role="menu" class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li class="divider"></li>
-                <li><a href="#">Separated link</a></li>
-                <li class="divider"></li>
-                <li><a href="#">One more separated link</a></li>
-              </ul>
-            </li>
-            <li><a href="#">Link</a></li>
-            <li class="dropdown">
-              <a data-toggle="dropdown" class="dropdown-toggle" href="#">Help <span class="caret"></span></a>
-              <ul role="menu" class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li class="divider"></li>
-                <li><a href="#">Separated link</a></li>
-                <li class="divider"></li>
-                <li><a href="#">One more separated link</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-        <div class="logo">
-          <a href="#"><%= image_tag "farmilio_logo.png" %></a>
-        </div>
-        <a class="navbar-brand" href="#">Farmilio</a>
-      </div>
-
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div class="forced-horizontal">
         <ul class="nav navbar-nav">
+          <li class="de"><a href="#"><%= image_tag "DE.png" %></a></li>
           <li class="login"><a href="#">Login</a></li>
           <li class="position"><a href="#">Position</a></li>
           <li class="share"><a href="#">Share</a></li>
@@ -73,33 +33,74 @@
               <li><a href="#">One more separated link</a></li>
             </ul>
           </li>
-
-        </ul>
-        <!--<form class="navbar-form navbar-left" role="search">
-          <div class="form-group">
-            <input type="text" class="form-control" placeholder="Search">
-          </div>
-          <button type="submit" class="btn btn-default">Submit</button>
-        </form>-->
-        <!--<ul class="nav navbar-nav navbar-right">
           <li><a href="#">Link</a></li>
           <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
-            <ul class="dropdown-menu" role="menu">
+            <a data-toggle="dropdown" class="dropdown-toggle" href="#">Help <span class="caret"></span></a>
+            <ul role="menu" class="dropdown-menu">
               <li><a href="#">Action</a></li>
               <li><a href="#">Another action</a></li>
               <li><a href="#">Something else here</a></li>
               <li class="divider"></li>
               <li><a href="#">Separated link</a></li>
+              <li class="divider"></li>
+              <li><a href="#">One more separated link</a></li>
             </ul>
           </li>
-        </ul>-->
+        </ul>
       </div>
-      <!-- /.navbar-collapse -->
+      <div class="logo">
+        <a href="#"><%= image_tag "farmilio_logo.png" %></a>
+      </div>
+      <a class="navbar-brand" href="#">Farmilio</a>
     </div>
-    <!-- /.container-fluid -->
-  </nav>
-  <div class="cjs">
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="login"><a href="#">Login</a></li>
+        <li class="position"><a href="#">Position</a></li>
+        <li class="share"><a href="#">Share</a></li>
+        <li class="contact"><a href="#">Contact</a></li>
+        <li class="help dropdown">
+          <a data-toggle="dropdown" class="dropdown-toggle" href="#">Help <span class="caret"></span></a>
+          <ul role="menu" class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+
+      </ul>
+      <!--<form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>-->
+      <!--<ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>-->
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container-fluid -->
+</nav>
+<div class="cjs">
+  <div class="container-fluid">
     <div class="row">
       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <p>CJSs</p>
@@ -108,29 +109,110 @@
       </div>
     </div>
   </div>
-  <div class="main-content">
+</div>
+<div class="main-content">
+  <div class="container-fluid">
     <div class="row">
       <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
         <div class="row">
           <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
             <div class="offers">
-              <div class="offer">
-                <div class="row">
-                  <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
-                    <div class="thumb">
-                      <%= image_tag "deletables/800px-Malus-Shampion.jpg" %>
+              <div class="teasers">
+                <h4>Teaser Offers</h4>
+
+                <div class="offer">
+                  <div class="row">
+                    <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                      <div class="thumb">
+                        <%= image_tag "deletables/800px-Malus-Shampion.jpg" %>
+                      </div>
+                      <div class="icons">
+                        <%= image_tag "pickupYES.png" %>
+                        <%= image_tag "selfharvestNO.png" %>
+                        <%= image_tag "deliveryNO.png" %>
+                      </div>
                     </div>
-                    <div class="icons">
-                      <%= image_tag "pickupYES.png" %>
-                      <%= image_tag "selfharvestNO.png" %>
-                      <%= image_tag "deliveryNO.png" %>
+                    <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                      <div class="info">
+                        <h3>Cox Orange</h3>
+
+                        <p class="origin">Pfaffikon, Schweiz Meyerhof, Altendorf</p>
+
+                        <p class="price">4.60 / kg</p>
+                      </div>
                     </div>
                   </div>
+                </div>
+                <div class="offer">
+                  <div class="row">
+                    <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                      <div class="thumb">
+                        <%= image_tag "deletables/800px-Malus-Shampion.jpg" %>
+                      </div>
+                      <div class="icons">
+                        <%= image_tag "pickupYES.png" %>
+                        <%= image_tag "selfharvestNO.png" %>
+                        <%= image_tag "deliveryNO.png" %>
+                      </div>
+                    </div>
+                    <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                      <div class="info">
+                        <h3>Cox Orange</h3>
 
-                  <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
-                    <div class="info">
+                        <p class="origin">Pfaffikon, Schweiz Meyerhof, Altendorf</p>
 
-                   <h3>Cox Orange</h3>
+                        <p class="price">4.60 / kg</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="others">
+                <h4>Other Offers</h4>
+
+                <div class="offer">
+                  <div class="row">
+                    <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                      <div class="thumb">
+                        <%= image_tag "deletables/800px-Malus-Shampion.jpg" %>
+                      </div>
+                      <div class="icons">
+                        <%= image_tag "pickupYES.png" %>
+                        <%= image_tag "selfharvestNO.png" %>
+                        <%= image_tag "deliveryNO.png" %>
+                      </div>
+                    </div>
+                    <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                      <div class="info">
+                        <h3>Cox Orange</h3>
+
+                        <p class="origin">Pfaffikon, Schweiz Meyerhof, Altendorf</p>
+
+                        <p class="price">4.60 / kg</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="offer">
+                  <div class="row">
+                    <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                      <div class="thumb">
+                        <%= image_tag "deletables/800px-Malus-Shampion.jpg" %>
+                      </div>
+                      <div class="icons">
+                        <%= image_tag "pickupYES.png" %>
+                        <%= image_tag "selfharvestNO.png" %>
+                        <%= image_tag "deliveryNO.png" %>
+                      </div>
+                    </div>
+                    <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                      <div class="info">
+                        <h3>Cox Orange</h3>
+
+                        <p class="origin">Pfaffikon, Schweiz Meyerhof, Altendorf</p>
+
+                        <p class="price">4.60 / kg</p>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -138,10 +220,9 @@
             </div>
           </div>
           <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-            <div class="message">Your password has been changed</div>
+            <div class="map"><%=image_tag('deletables/map.png');%></div>
           </div>
         </div>
-
 
 
       </div>
@@ -150,34 +231,36 @@
       </div>
     </div>
   </div>
-  <div class="footer">
-    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-      <div class="terms-and-conditions">
-        <h3>Terms and Conditions</h3>
-        <ul>
-          <li><a href="#">General Terms ans Conditions</a></li>
-          <li><a href="#">Service Terms ans Conditions</a></li>
-          <li><a href="#">Privacy and Data Protection Policy</a></li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-      <div class="about-farmilio">
-        <h3>About Farmilio</h3>
-        <ul>
-          <li><a href="#">Farmilio</a></li>
-          <li><a href="#">Facebook</a></li>
-          <li><a href="#">Imprint</a></li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-      <div class="copyrights">
-        <p>Copyright, 2014 © bit anatomy Dunkake</p>
-        <p>Farmilio is a registered trademark (™)</p>
-      </div>
+</div>
+<div class="footer">
+  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+    <div class="terms-and-conditions">
+      <h3>Terms and Conditions</h3>
+      <ul>
+        <li><a href="#">General Terms ans Conditions</a></li>
+        <li><a href="#">Service Terms ans Conditions</a></li>
+        <li><a href="#">Privacy and Data Protection Policy</a></li>
+      </ul>
     </div>
   </div>
+
+  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+    <div class="about-farmilio">
+      <h3>About Farmilio</h3>
+      <ul>
+        <li><a href="#">Farmilio</a></li>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Imprint</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+    <div class="copyrights">
+      <p>Copyright, 2014 © bit anatomy Dunkake</p>
+
+      <p>Farmilio is a registered trademark (™)</p>
+    </div>
+  </div>
+</div>
 </div>
