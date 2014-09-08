@@ -16,6 +16,8 @@ $dark_ash:    #B4B4B4;
 $field_border_width: 5px;
 
 @import "mixins";
+//@import "bootstrap-glyphicons";
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
 
 body {
   font: $site_font;
@@ -46,6 +48,48 @@ h1 {
     height: auto;
 
   }
+}
+
+button {
+  @include border-radius(5px);
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+.search-elements {
+  float: left;
+  width: 100%;
+
+  a,button,input {
+    float: left;
+    margin-right: 5px;
+    margin-top: 5px;
+  }
+
+  input {
+    width: 200px;
+  }
+
+  .for-search {
+    float: right;
+  }
+
+  a.adv-search {
+    margin-left: 20px;
+    margin-right: 5px;
+    margin-top: 12px;
+    float: right;
+  }
+
+  button {
+    height: 32px;
+    background: $green;
+    border: none;
+    color: #ffffff;
+    padding-top: 2px;
+  }
+
 }
 
 .container {
@@ -200,9 +244,6 @@ a.btn-primary:hover, a.btn-primary:focus, a.btn-primary:active, a.btn-primary.ac
 
 a.btn-primary {
   background: $light_brown;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
   @include border-radius(5px);
   border-color: $light_brown;
 }
